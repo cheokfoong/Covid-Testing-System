@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="testSuggestionChecklistPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="testSuggestionResultPanel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="resetChecklistAndResultButton" min="-2" pref="200" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="getSuggestionButton" min="-2" pref="200" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="confirmTestSuggestionButton" min="-2" pref="200" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="testSuggestionChecklistPanel" max="32767" attributes="0"/>
+                  <Component id="testSuggestionResultPanel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="getSuggestionButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="confirmTestSuggestionButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="resetChecklistAndResultButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="38" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="testSuggestionChecklistPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="testSuggestionChecklistPanelLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="soreThroatCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="dryCoughCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="feverCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lossTasteSmellCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="nauseaVomitingCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="shortnessOfBreathCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="muscleBodyAchesCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="diarrheaCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="fatigueCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="chestPainPressureCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="noSymptomsCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="closeContactCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="116" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="testSuggestionChecklistPanelLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="soreThroatCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="dryCoughCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="feverCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lossTasteSmellCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="nauseaVomitingCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="shortnessOfBreathCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="muscleBodyAchesCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="diarrheaCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="fatigueCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="chestPainPressureCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="noSymptomsCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="closeContactCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="20" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="testSuggestionChecklistPanelLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Test Suggestion Checklist"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="soreThroatCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sore throat"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="dryCoughCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dry cough"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="feverCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fever"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="lossTasteSmellCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Loss of taste and / or smell"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="nauseaVomitingCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nausea / vomiting"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="shortnessOfBreathCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Shortness of breath / have difficulty breathing"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="muscleBodyAchesCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Muscle / body aches"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="diarrheaCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Diarrhea"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="fatigueCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fatigue"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chestPainPressureCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Persistent pain / pressure in the chest"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="noSymptomsCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="None of the symptoms above / asymptomatic"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="noSymptomsCheckBoxActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="closeContactCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Close contact with someone that has COVID-19 "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="testSuggestionResultPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="suggestedTestTextField" pref="368" max="32767" attributes="0"/>
+                      <Component id="patientIdTextField" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="testSuggestionResultPanelLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="patientIdLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bookingIdLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="bookingIdTextField" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="logoutButton" min="-2" pref="100" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="logoutButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                  <Component id="testSuggestionResultPanelLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="suggestedTestTextField" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="patientIdLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="patientIdTextField" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="bookingIdLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="bookingIdTextField" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="149" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="testSuggestionResultPanelLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Test Suggestion Result:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suggestedTestTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Suggested test will be shown here"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="patientIdLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Patient ID:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="patientIdTextField">
+        </Component>
+        <Component class="javax.swing.JLabel" name="bookingIdLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Booking ID:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bookingIdTextField">
+        </Component>
+        <Component class="javax.swing.JButton" name="logoutButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Logout"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="logoutButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="getSuggestionButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Get Suggestion"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="getSuggestionButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="confirmTestSuggestionButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirm Test Suggestion"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="confirmTestSuggestionButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="resetChecklistAndResultButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset Checklist And Result"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetChecklistAndResultButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
